@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Exceptions\MyCustomException;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // // throw new MyCustomException('algo va mal');
     return view('welcome');
 });
