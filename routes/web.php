@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Exceptions\MyCustomException;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
